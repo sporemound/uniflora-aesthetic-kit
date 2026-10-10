@@ -1,5 +1,13 @@
 # Validation record
 
+## Plugin integration — 2026-10-10
+
+Current kit validator: **PASS**, 3,029 checks, 0 failures. Plugin export validator: **PASS**, 117 checks, 0 failures. All six plugin v0.1.2 files match the downloaded current-release archive byte for byte; all 36 embedded kit source files match their recorded Git blobs at the initial v0.1 commit. Manifest agreement, lookup and catalog paths are checked. Imported bytes are protected from Git line-ending conversion. Validators read UTF-8 explicitly and compare repository paths with forward slashes for Windows portability; execution in this environment was on Linux, not a Windows host.
+
+An independent source review found no credentials, personal email addresses, unsafe archive paths, links, special files, or new third-party visual/font resources. Existing source and license notices are retained. The export's oversized manifest subtitle, truncated skill subtitle, and historical embedded path notes are documented in `plugins/README.md` and `plugins/EXPORT.json`; preserving those files is not a public-directory validation claim. No fresh host installation, workflow execution, public-directory submission, hosted plugin update, or sharing change was performed. The creator authorized adding this plugin source to the existing public repository.
+
+## Initial v0.1 validation
+
 Portable validator: **PASS**, 3000 checks, 0 failures.
 
 Executed 2026-10-10 UTC. Uses Python standard library; no paid dependencies.

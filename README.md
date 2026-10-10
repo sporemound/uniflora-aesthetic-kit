@@ -6,6 +6,8 @@ A small, editable creative system for artwork, image prompts, websites, and inte
 
 ## Start in five minutes
 
+**Uniflora plugin:** [Open the existing ChatGPT plugin](https://chatgpt.com/plugins/plugin_02aa24827e008191b1976328c2633fe8), or use the [editable plugin source and repository marketplace](plugins/README.md). The optional source export preserves plugin v0.1.2 and its pinned v0.1 reference bundle. Hosted access depends on the plugin's audience; source publication does not change that audience.
+
 1. Open [demo/index.html](demo/index.html) in a browser. It works directly from disk, with no install, account, subscription, or network request. Keep its sibling folders in place.
 2. Read the short [manifesto](docs/MANIFESTO.md), then choose a branch in the [style guide](docs/STYLE-GUIDE.md).
 3. For images, fill the [prompt template](prompts/TEMPLATE.md). Use the [six examples](prompts/examples.md) as examples of different construction methods, not universal subjects or slogans.
@@ -95,6 +97,20 @@ uniflora-aesthetic-kit/
     CC-BY-4.0.txt
   tools/
     validate.py
+    validate_plugin.py
+  .agents/plugins/
+    marketplace.json
+  plugins/
+    README.md
+    EXPORT.json
+    uniflora/
+      plugin.json
+      .codex-plugin/plugin.json
+      skills/instructions/
+        SKILL.md
+        agents/openai.yaml
+        lookup/knowledge-index.json
+        references/uniflora-gpt-reference.md
 ```
 
 ## Verify a change
@@ -104,6 +120,8 @@ Optional validation needs only Python 3.10+; there is no package installation:
 ```sh
 python tools/validate.py
 ```
+
+This also checks the [pinned plugin export](plugins/README.md), including its original file hashes and embedded source sections. Preserved plugin metadata limitations are reported separately; a fresh host installation has not been tested.
 
 It checks JSON consistency, readable token pairs, local links, SVG structure and external-resource exclusions. It cannot certify botanical identification, legal rights, or full accessibility. See [VALIDATION.md](docs/VALIDATION.md) for the performed checks and [REVIEW-CHECKLIST.md](docs/REVIEW-CHECKLIST.md) for the remaining human review. If a browser blocks local file links, you can optionally serve the folder with `python -m http.server 8000 --bind 127.0.0.1` and open `http://127.0.0.1:8000/demo/`.
 

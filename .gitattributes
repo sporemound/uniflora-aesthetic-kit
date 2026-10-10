@@ -1,0 +1,2 @@
+# Preserve exact bytes of the imported plugin archive on every platform.
+plugins/uniflora/** -text

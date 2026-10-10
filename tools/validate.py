@@ -3,6 +3,7 @@
 import argparse
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 import xml.etree.ElementTree as ET
@@ -71,8 +72,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--report", action="store_true", help="Write docs/VALIDATION.md after checking")
     args = parser.parse_args()
-    tokens = json.loads((ROOT / "presets/tokens.json").read_text())
-    css = (ROOT / "presets/tokens.css").read_text()
+    tokens = json.loads((ROOT / "presets/tokens.json").read_text(encoding="utf-8"))
+    css = (ROOT / "presets/tokens.css").read_text(encoding="utf-8")
     check(set(tokens["branches"]) == set(BRANCHES), "Tokens must cover exactly six branches")
     ratios = []
     for branch, record in tokens["branches"].items():
@@ -90,13 +91,17 @@ def main():
         ratios.append((branch, min(pairs.values())))
     check(not tokens.get("bundledFonts"), "v0.1 must not bundle fonts")
     for path in ROOT.rglob("*.json"):
-        json.loads(path.read_text())
-    examples = json.loads((ROOT / "prompts/examples.json").read_text())
+        json.loads(path.read_text(encoding="utf-8"))
+    examples = json.loads((ROOT / "prompts/examples.json").read_text(encoding="utf-8"))
     records = examples if isinstance(examples, list) else examples.get("examples", [])
     check(len(records) == 6, "Provide six prompt examples")
     check({e.get("branch") for e in records} == set(BRANCHES), "Prompts must cover six branches")
     for path in ROOT.rglob("*.md"):
-        text = path.read_text()
+        # The export retains links from concatenated source sections.
+        # validate_plugin.py checks those sections against their pinned Git blobs.
+        if path == ROOT / "plugins/uniflora/skills/instructions/references/uniflora-gpt-reference.md":
+            continue
+        text = path.read_text(encoding="utf-8")
         for target in re.findall(r'\]\(([^)\s]+)\)', text):
             local_link(path, target)
     namespace = "{http://www.w3.org/2000/svg}"
@@ -116,32 +121,36 @@ def main():
                 check(not key.lower().startswith("on"), f"Event attribute {path.name}")
                 if key.split("}")[-1] == "href":
                     check(value.startswith("#") and value[1:] in ids, f"Nonlocal or missing SVG reference {path.name}")
-        for ref in re.findall(r"url\(#([^)]+)\)", path.read_text()):
+        for ref in re.findall(r"url\(#([^)]+)\)", path.read_text(encoding="utf-8")):
             check(ref in ids, f"Missing SVG paint reference {path.name}/{ref}")
-    register = json.loads((ROOT / "attribution.json").read_text())
-    check({a["path"] for a in register["assets"]} == {str(p.relative_to(ROOT)) for p in svgs}, "SVG attribution inventory mismatch")
+    register = json.loads((ROOT / "attribution.json").read_text(encoding="utf-8"))
+    check({a["path"] for a in register["assets"]} == {p.relative_to(ROOT).as_posix() for p in svgs}, "SVG attribution inventory mismatch")
     check(not register["fonts"]["bundled"], "Font attribution inventory must be empty")
     check(not register["includedThirdPartyVisualAssets"], "v0.1 must not silently add external visuals")
     for extra in (ROOT / "demo").glob("*.html"):
         if extra.name != "index.html":
             parsed = DemoParser(extra)
-            parsed.feed(extra.read_text())
+            parsed.feed(extra.read_text(encoding="utf-8"))
     html_path = ROOT / "demo/index.html"
     demo = DemoParser(html_path)
-    demo.feed(html_path.read_text())
+    demo.feed(html_path.read_text(encoding="utf-8"))
     check(tuple(demo.branches) == BRANCHES, "Demo preset order/coverage mismatch")
     check(demo.images == 6, "Demo must show six motifs")
     check(len(demo.ids) == len(set(demo.ids)), "Duplicate HTML ids")
     check(all(v in demo.ids for v in demo.labels), "Input label target missing")
-    demo_css = (ROOT / "demo/demo.css").read_text()
+    demo_css = (ROOT / "demo/demo.css").read_text(encoding="utf-8")
     check("prefers-reduced-motion: reduce" in demo_css, "Reduced-motion fallback missing")
     check(".crt-toggle:checked" in demo_css, "Motion must be explicit opt-in")
     check("overflow: hidden" in demo_css, "Screen clipping missing")
     for path in (ROOT / "demo/demo.css", ROOT / "presets/tokens.css"):
-        text = path.read_text()
+        text = path.read_text(encoding="utf-8")
         check(not re.search(r"@import|@font-face|https?://", text), "External CSS/font dependency")
     check(not list(ROOT.rglob("*.woff*")) and not list(ROOT.rglob("*.ttf")) and not list(ROOT.rglob("*.otf")), "Bundled font found")
     result = "PASS" if not errors else "FAIL"
+    if (ROOT / "plugins/EXPORT.json").exists():
+        plugin_result = subprocess.run([sys.executable, str(ROOT / "tools/validate_plugin.py")], check=False)
+        check(plugin_result.returncode == 0, "Pinned plugin export failed validation")
+        result = "PASS" if not errors else "FAIL"
     print(f"{result}: {checks} checks; {len(errors)} failures")
     for message in errors:
         print("- " + message)
@@ -156,7 +165,7 @@ def main():
                    "Decorative swatches are not approved text colors. This record is not a full WCAG conformance or legal clearance report."]
         if errors:
             report += ["", "## Failures", ""] + ["- " + e for e in errors]
-        (ROOT / "docs/VALIDATION.md").write_text("\n".join(report) + "\n")
+        (ROOT / "docs/VALIDATION.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     return bool(errors)
 
 

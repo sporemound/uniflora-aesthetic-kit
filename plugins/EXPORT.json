@@ -1,0 +1,197 @@
+{
+  "pluginURL": "https://chatgpt.com/plugins/plugin_02aa24827e008191b1976328c2633fe8",
+  "pluginId": "plugin_02aa24827e008191b1976328c2633fe8",
+  "releaseId": "pluginrel_6ac9eb292c8c8191af2ef0bb1553ed4f",
+  "version": "0.1.2",
+  "packageName": "gpt-cf67fc0aaefb2b8a0069c944fead99ac",
+  "sourceCommit": "92acf469da1a832c0bad510472dd2a31a832acd8",
+  "bundledFiles": [
+    {
+      "path": "ATTRIBUTION.md",
+      "gitBlobSha": "ac7bbbb32bdd14de2b5c48bfcb8bad45088251a6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "gitBlobSha": "d0507ff7a82716a9c8bf86d28148fb224eccbb28"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "gitBlobSha": "7749654a58fa4526bd3c9e2b21aab9dae4d5fba8"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657"
+    },
+    {
+      "path": "LICENSE.md",
+      "gitBlobSha": "df3df7b9eee783c1c4fc9e43bf875d35c1c75dbd"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha": "eb59b77e68715aeddd3ec798480d16a885936614"
+    },
+    {
+      "path": "assets/README.md",
+      "gitBlobSha": "e1ca5fe7c698226464e698219090c46f7dee9977"
+    },
+    {
+      "path": "assets/svg/crt-forest.svg",
+      "gitBlobSha": "446cba32b8f398897f0c999c461580afc36bd01c"
+    },
+    {
+      "path": "assets/svg/engraved-fold.svg",
+      "gitBlobSha": "3abd0bd553d6ecbc191b06483c6d6c3278d8e48a"
+    },
+    {
+      "path": "assets/svg/isometric-signal.svg",
+      "gitBlobSha": "942e3ff54d5cf37b199601102cede25a53b95c31"
+    },
+    {
+      "path": "assets/svg/kilim-burdock.svg",
+      "gitBlobSha": "23fe2b2805c6646b47647641c279b4c2307ba88c"
+    },
+    {
+      "path": "assets/svg/nocturnal-optics.svg",
+      "gitBlobSha": "1be8a062405ea47e96323e6613016c79963cd687"
+    },
+    {
+      "path": "assets/svg/specimen-ghost-pipe.svg",
+      "gitBlobSha": "44a96210046dcfec01037269cf5c5bcc598cf486"
+    },
+    {
+      "path": "attribution.json",
+      "gitBlobSha": "2e3f37d042bd7bcf3392edd506fe7752338caeae"
+    },
+    {
+      "path": "demo/demo.css",
+      "gitBlobSha": "107c4abd60770eb36d9363e42b02d1b2348e554a"
+    },
+    {
+      "path": "demo/index.html",
+      "gitBlobSha": "597e51dc0e60f68a1bba1999229b02522d5dad8f"
+    },
+    {
+      "path": "demo/starter.html",
+      "gitBlobSha": "eb6a6f9cf34553d55aad8917ba0fcea9f765b793"
+    },
+    {
+      "path": "docs/BOTANICAL-ACCURACY.md",
+      "gitBlobSha": "b8e1597af5422fef4492da12ebb1256ba3273b10"
+    },
+    {
+      "path": "docs/HISTORY-AND-INTERPRETATION.md",
+      "gitBlobSha": "1923a7993101257e681f4883a529640d77ac7318"
+    },
+    {
+      "path": "docs/MANIFESTO.md",
+      "gitBlobSha": "6018bff07e469d85cfc42c38b3ec749000fea438"
+    },
+    {
+      "path": "docs/REFERENCE-SOURCES.md",
+      "gitBlobSha": "6e0e3c63a3ecdffea4a24e73fa6721ae83b15845"
+    },
+    {
+      "path": "docs/REVIEW-CHECKLIST.md",
+      "gitBlobSha": "6596692a46d66ccedd3173002ca28fe1ae3112fe"
+    },
+    {
+      "path": "docs/RIGHTS-REVIEW.md",
+      "gitBlobSha": "e3d5f4cd4bec7cb7c53d362f9d4d8152c017a72a"
+    },
+    {
+      "path": "docs/STYLE-GUIDE.md",
+      "gitBlobSha": "4b930d393b8d9e563dfa926790a916833a93abf8"
+    },
+    {
+      "path": "docs/SVG-PROVENANCE.md",
+      "gitBlobSha": "fdea423a36252e1c55d98cf0b11c90cf02bb1873"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "gitBlobSha": "dd64b423751bd46cc257d6543b49c879124637ff"
+    },
+    {
+      "path": "licenses/CC-BY-4.0.txt",
+      "gitBlobSha": "62d60754e1359f61cd9cab597191fb40c7961870"
+    },
+    {
+      "path": "licenses/README.md",
+      "gitBlobSha": "d8b9a408b3008401c807f722c5186ec168ab6de0"
+    },
+    {
+      "path": "licenses/Unlicense.txt",
+      "gitBlobSha": "fdddb29aa445bf3d6a5d843d6dd77e10a9f99657"
+    },
+    {
+      "path": "presets/tokens.css",
+      "gitBlobSha": "4e668d3e10ce06c0db98b86a05bb7b7225bc03a0"
+    },
+    {
+      "path": "presets/tokens.json",
+      "gitBlobSha": "4272fcb33c1636993f5c3c9fc8211df05ee1300a"
+    },
+    {
+      "path": "prompts/TEMPLATE.md",
+      "gitBlobSha": "5cc39b33c0c1c2257024c269e1d6c8b5dde37675"
+    },
+    {
+      "path": "prompts/examples.json",
+      "gitBlobSha": "b50108fb7a6debc9a0d4d80d2d5ef9032651e895"
+    },
+    {
+      "path": "prompts/examples.md",
+      "gitBlobSha": "2a90fd3b31e386ad6e6b2483af3dd3ec15b45ab8"
+    },
+    {
+      "path": "prompts/template.json",
+      "gitBlobSha": "90abeb7b3b504b6f9d6ecffdb6e3786f0c5a8be0"
+    },
+    {
+      "path": "tools/validate.py",
+      "gitBlobSha": "eb16aed200f28b76af17805ebf6d97727baecd7e"
+    }
+  ],
+  "exportedUTC": "2026-10-10",
+  "pluginRoot": "plugins/uniflora",
+  "exportPolicy": "Original six archive files retained byte for byte, including reference CRLF line endings. No hosted plugin update or sharing change performed.",
+  "rights": "Code/configuration: Unlicense. Authored instruction and presentation prose: CC-BY-4.0. Embedded source sections retain their original software, documentation, artwork and license-text terms.",
+  "hostedVisibilityAtExport": "PRIVATE",
+  "files": [
+    {
+      "path": "plugin.json",
+      "bytes": 1297,
+      "sha256": "5a9d162b20afd5d404b8079138a9469725308be61d6d86f1c3c3476ecb766f9e"
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 1156,
+      "sha256": "965e80392909d15bf296ea77bc256aac7a46119355b22e67a2dc47b7eedebe0b"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "bytes": 1239,
+      "sha256": "6c7c5f54fa2efd9b3746c81005cba98278b3b5af8a1c5533e7ae1d03be7f4525"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "bytes": 245,
+      "sha256": "d7222ebdf6fe5d4587fd2a65d4be4c0894445fe69a614f0f36fdd12791270b7c"
+    },
+    {
+      "path": "skills/instructions/lookup/knowledge-index.json",
+      "bytes": 868,
+      "sha256": "9613444409924fdd4e3661a2ed1af495273dc75527b95676b697ca390e951c2a"
+    },
+    {
+      "path": "skills/instructions/references/uniflora-gpt-reference.md",
+      "bytes": 234552,
+      "sha256": "b8bd77d04d0c8d2a567c2ae3fbfd563a0444e493c361019c687be5139c0a193d"
+    }
+  ],
+  "knownMetadataIssues": [
+    "Plugin shortDescription exceeds 30 characters in both manifests.",
+    "Skill agents/openai.yaml short_description ends in the truncated word int.",
+    "Embedded SOURCE-SNAPSHOT.md mentions snapshot/ and SHA256SUMS.txt from a prior skill package; these are not physical resources in this concatenated plugin export."
+  ],
+  "hostValidation": "Archive and local source checked; fresh host installation and public-directory submission not performed."
+}

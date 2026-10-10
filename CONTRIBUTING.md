@@ -14,6 +14,8 @@ This project is an initial v0.1 release for review. Keep changes small enough to
 
 For a future public contribution, state that you have authority to contribute your changes under the Unlicense for code and CC BY 4.0 for documentation and original art, as mapped in `licenses/README.md`. Disclose AI assistance and borrowed material. Do not assert the AI as a copyright owner. Do not silently relicense previous contributions.
 
+For plugin work, read [plugins/README.md](plugins/README.md). The six files under `plugins/uniflora/` are an exact imported release. Do not silently edit its pinned reference or claim that repository changes update the hosted plugin. Refresh the release and provenance together, preserve all default prompts and license boundaries, and run the export validator. Metadata normalization for a new upload must be identified as a modification and versioned.
+
 Suggested change description:
 
 ```text

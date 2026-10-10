@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "capabilities": [
+      "skills"
+    ],
+    "category": "Other",
+    "defaultPrompt": [
+      "Create an engraved architectural poster for a public archive, keeping its civic purpose visible.",
+      "Write a CRT botanical animation brief for flowering ghost pipe, with a fixed display and static alternative.",
+      "Build an accessible specimen interface for an identifiable flowering plant."
+    ],
+    "developerName": "GPT Creator",
+    "displayName": "Uniflora",
+    "longDescription": "Create editable artwork briefs, image prompts, websites, and interfaces across six distinct Uniflora visual branches. Public repository: https://github.com/sporemound/uniflora-aesthetic-kit",
+    "shortDescription": "Create editable artwork briefs, image prompts, websites, and interfaces across six distinct Uniflora visual branches."
+  },
+  "name": "gpt-cf67fc0aaefb2b8a0069c944fead99ac",
+  "version": "0.1.2",
+  "description": "Create editable artwork briefs, image prompts, websites, and interfaces across six distinct Uniflora visual branches.",
+  "author": {
+    "name": "GPT Creator"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

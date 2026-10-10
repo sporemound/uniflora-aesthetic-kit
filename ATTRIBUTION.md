@@ -36,6 +36,12 @@ There are **no included third-party visual assets or font files**. Generic brows
 
 Exact reference URLs and consulted dates are in [docs/REFERENCE-SOURCES.md](docs/REFERENCE-SOURCES.md). The six SVGs' construction notes are in [docs/SVG-PROVENANCE.md](docs/SVG-PROVENANCE.md).
 
+## Plugin export — 2026-10-10
+
+The creator supplied [the existing Uniflora plugin](https://chatgpt.com/plugins/plugin_02aa24827e008191b1976328c2633fe8) and explicitly requested adding it to this public repository. Version 0.1.2, release `pluginrel_6ac9eb292c8c8191af2ef0bb1553ed4f`, contains six original exported files under `plugins/uniflora/`; their archive bytes are unchanged. Its reference reproduces the 36 kit files at commit `92acf469da1a832c0bad510472dd2a31a832acd8` plus earlier skill guidance and snapshot notes. Complete source, hashes, and known metadata limits are in [plugins/EXPORT.json](plugins/EXPORT.json).
+
+The manifest's generic `GPT Creator` fields are retained export metadata. Credit the project creative material to **Uniflora contributors**. Configuration and validator code use Unlicense; authored skill and presentation prose, integration documentation and provenance use CC BY 4.0; embedded materials retain their existing distinct terms. No third-party art, fonts, MCP dependency, credentials, or local private files were introduced. The user authorized source publication; no claim is made that the hosted plugin is public, automatically synced, host-tested, or approved for public-directory submission.
+
 ## Reuse credit
 
 Use this credit for the original art and documentation:

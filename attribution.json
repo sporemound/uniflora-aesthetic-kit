@@ -10,7 +10,12 @@
       "demo/*.css",
       "presets/*.json",
       "presets/*.css",
-      "tools/*.py"
+      "tools/*.py",
+      ".agents/plugins/marketplace.json",
+      "plugins/uniflora/plugin.json",
+      "plugins/uniflora/.codex-plugin/plugin.json",
+      "plugins/uniflora/skills/instructions/lookup/*.json",
+      ".gitattributes"
     ],
     "softwareLicense": "Unlicense",
     "documentation": [
@@ -19,7 +24,11 @@
       "assets/README.md",
       "prompts/*.md",
       "prompts/*.json",
-      "attribution.json"
+      "attribution.json",
+      "plugins/*.md",
+      "plugins/EXPORT.json",
+      "plugins/uniflora/skills/instructions/SKILL.md",
+      "plugins/uniflora/skills/instructions/agents/*.yaml (authored presentation prose)"
     ],
     "documentationLicense": "CC-BY-4.0",
     "artwork": [
@@ -190,5 +199,20 @@
   "maintainer": "sporemound",
   "repository": "https://github.com/sporemound/uniflora-aesthetic-kit",
   "publicationAuthorization": "Creator explicitly instructed publication to this existing repository after completion on 2026-10-09 Pacific.",
-  "attribution": "Uniflora contributors"
+  "attribution": "Uniflora contributors",
+  "pluginExport": {
+    "sourceURL": "https://chatgpt.com/plugins/plugin_02aa24827e008191b1976328c2633fe8",
+    "version": "0.1.2",
+    "releaseId": "pluginrel_6ac9eb292c8c8191af2ef0bb1553ed4f",
+    "sourceCommit": "92acf469da1a832c0bad510472dd2a31a832acd8",
+    "provenancePath": "plugins/EXPORT.json",
+    "authorCredit": "Uniflora contributors",
+    "exportedAuthorField": "GPT Creator (retained generated metadata; not a verified rights holder)",
+    "changes": "Original six archive files unchanged. New repository catalog, guides, provenance and validator.",
+    "referenceLicenseScope": "Embedded software: Unlicense; documentation/prompt prose/original SVGs: CC-BY-4.0; CC legal-code text: CC0. Wrapper does not relicense embedded contents.",
+    "redistributionBasis": "Creator supplied their existing plugin and explicitly authorized adding its source to the established public repository. Original kit material retains documented terms; no new third-party visuals or fonts.",
+    "hostedVisibilityAtExport": "PRIVATE",
+    "hostedChanges": "None; source publication is not a hosted plugin update, sharing change, automatic sync or directory submission.",
+    "aiAssistance": "Creator-supplied plugin wrapper and earlier skill guidance authored with AI assistance; copyrightability caveats remain applicable."
+  }
 }

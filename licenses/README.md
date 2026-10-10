@@ -11,6 +11,10 @@ The public maintainer **sporemound** has authorized this release with **Unlicens
 
 In an HTML file, executable markup and styling are under Unlicense; separately identified illustrations and substantial guide text retain their stated CC BY 4.0 terms. Prefer linked SVG files so this boundary stays clear. The root software dedication does not override this explicit CC BY designation for the guides, prompt prose, and artwork.
 
+## Plugin export scope
+
+The optional [plugin export](../plugins/README.md) is creator-supplied AI-assisted material, authorized for publication to this repository. Manifests, lookup configuration, marketplace catalog, and validation code use Unlicense. Authored skill instructions and presentation prose, plugin documentation, and export provenance use CC BY 4.0 with the existing Uniflora contributors credit. This maps configuration and prose separately even when they share a JSON or YAML file. The concatenated reference retains each embedded file's original terms from the pinned v0.1 kit; no blanket license is applied to that mixed source document. `GPT Creator` is unchanged exported presentation metadata, not an independently verified rights holder. No paid font or third-party visual asset was added. Exact source hashes and modification status are in [plugins/EXPORT.json](../plugins/EXPORT.json).
+
 ## Copyable credit
 
 For documentation and artwork reuse, use:

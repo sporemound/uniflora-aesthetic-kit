@@ -1,0 +1,6 @@
+interface:
+  default_prompt: Create an engraved architectural poster for a public archive, keeping
+    its civic purpose visible.
+  display_name: Uniflora
+  short_description: Create editable artwork briefs, image prompts, websites, and
+    int

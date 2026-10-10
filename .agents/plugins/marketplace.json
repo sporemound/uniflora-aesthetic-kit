@@ -1,0 +1,20 @@
+{
+  "name": "uniflora-aesthetic-kit",
+  "interface": {
+    "displayName": "Uniflora Aesthetic Kit"
+  },
+  "plugins": [
+    {
+      "name": "gpt-cf67fc0aaefb2b8a0069c944fead99ac",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uniflora"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Other"
+    }
+  ]
+}
