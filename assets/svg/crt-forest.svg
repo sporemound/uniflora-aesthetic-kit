@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="crt-forest-title crt-forest-desc">
+  <title id="crt-forest-title">Fixed-screen botanical CRT world</title>
+  <desc id="crt-forest-desc">An original static CRT monitor encloses a stepped forest with a crescent moon, pale scaled ghost-pipe stems, cyan and magenta accents, scanlines, and small displaced signal bands. All marks are clipped inside the screen; its frame stays intact. Distortion is intentional in this branch. This is a stylized scene, not a botanical field plate.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  <defs>
+    <clipPath id="crt-screen-clip"><rect x="30" y="34" width="420" height="260" rx="22"/></clipPath>
+    <linearGradient id="crt-sky" x2="0" y2="1"><stop stop-color="#101b36"/><stop offset="1" stop-color="#0b4142"/></linearGradient>
+    <pattern id="crt-scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#031714" stroke-width="1"/></pattern>
+    <radialGradient id="crt-vignette"><stop offset=".56" stop-color="#071521" stop-opacity="0"/><stop offset="1" stop-color="#071521" stop-opacity=".67"/></radialGradient>
+</defs>
+
+  <rect id="background" width="480" height="360" fill="#100f22"/>
+  <g id="monitor-frame"><rect x="12" y="14" width="456" height="324" rx="21" fill="#2b2a36" stroke="#605967" stroke-width="2"/><rect x="25" y="28" width="430" height="275" rx="27" fill="#080e18" stroke="#807585" stroke-width="2"/><path d="M33 307H447V324H33Z" fill="#1b1d27"/><path d="M190 338V350H290V338" fill="#24242f"/><rect x="38" y="314" width="24" height="3" fill="#77717e"/><circle cx="430" cy="316" r="3" fill="#70d4bf"/></g>
+  <g id="screen-content" clip-path="url(#crt-screen-clip)">
+    <rect x="30" y="34" width="420" height="260" fill="url(#crt-sky)"/>
+    <g id="moon-and-stars"><path d="M313 54A28 28 0 1 0 343 92A24 24 0 0 1 313 54Z" fill="#92dce0"/><rect x="68" y="226" width="10" height="3" fill="#cf53b6"/><rect x="93" y="236" width="7" height="4" fill="#67e9d3"/><rect x="134" y="253" width="9" height="3" fill="#cf53b6"/><rect x="150" y="215" width="4" height="4" fill="#68dccc"/><rect x="352" y="231" width="14" height="2" fill="#7af0dc"/><rect x="384" y="246" width="9" height="4" fill="#d354b8"/><rect x="75" y="178" width="3" height="3" fill="#79dbc6"/><rect x="323" y="194" width="3" height="3" fill="#dc79c2"/><rect x="360" y="150" width="4" height="4" fill="#70c8d4"/><rect x="211" y="69" width="2" height="2" fill="#93d4df"/><rect x="339" y="75" width="2" height="2" fill="#93d4df"/></g>
+    <g id="stepped-forest"><path d="M40 280V84H59V280Z" fill="#082d31"/><path d="M40 116H27V109H17V103H11 M59 136H71V127H79" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M44 279V92" stroke="#08716a" stroke-width="2"/><path d="M71 280V64H84V280Z" fill="#073e3c"/><path d="M71 96H58V89H48V83H42 M84 116H96V107H104" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M75 279V72" stroke="#08716a" stroke-width="2"/><path d="M107 280V115H130V280Z" fill="#0a5450"/><path d="M107 147H94V140H84V134H78 M130 167H142V158H150" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M111 279V123" stroke="#08716a" stroke-width="2"/><path d="M155 280V73H169V280Z" fill="#082d31"/><path d="M155 105H142V98H132V92H126 M169 125H181V116H189" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M159 279V81" stroke="#08716a" stroke-width="2"/><path d="M197 280V113H218V280Z" fill="#073e3c"/><path d="M197 145H184V138H174V132H168 M218 165H230V156H238" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M201 279V121" stroke="#08716a" stroke-width="2"/><path d="M268 280V59H281V280Z" fill="#0a5450"/><path d="M268 91H255V84H245V78H239 M281 111H293V102H301" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M272 279V67" stroke="#08716a" stroke-width="2"/><path d="M304 280V92H326V280Z" fill="#082d31"/><path d="M304 124H291V117H281V111H275 M326 144H338V135H346" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M308 279V100" stroke="#08716a" stroke-width="2"/><path d="M354 280V67H369V280Z" fill="#073e3c"/><path d="M354 99H341V92H331V86H325 M369 119H381V110H389" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M358 279V75" stroke="#08716a" stroke-width="2"/><path d="M398 280V103H421V280Z" fill="#0a5450"/><path d="M398 135H385V128H375V122H369 M421 155H433V146H441" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M402 279V111" stroke="#08716a" stroke-width="2"/><path d="M435 280V43H447V280Z" fill="#082d31"/><path d="M435 75H422V68H412V62H406 M447 95H459V86H467" fill="none" stroke="#0d6660" stroke-width="5"/><path d="M439 279V51" stroke="#08716a" stroke-width="2"/></g>
+    <g id="forest-floor"><path d="M30 258H74V252H118V261H165V249H216V259H260V251H298V264H343V250H389V261H450V294H30Z" fill="#09514a"/><path d="M30 276H110V269H186V278H252V269H320V279H387V273H450V294H30Z" fill="#07332e"/></g>
+    <g id="bioluminescent-accents" fill="none" stroke-width="2"><path d="M84 253H114M129 269H148M307 263H326M351 280H397" stroke="#71e5d5"/><path d="M48 268H73M161 257H194M263 279H289M400 264H421" stroke="#bf57ae"/></g>
+    <g id="ghost-pipes"><g id="crt-left" transform="translate(196 267) scale(0.84)" stroke-linejoin="miter">
+      <path fill="#e4e8ed" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#ed8ed5" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="crt-left-five-petals" stroke="#559185" stroke-width="1" fill="#e4e8ed">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="crt-left-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#e4e8ed"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#e4e8ed"/></g>
+      </g>
+    </g><g id="crt-center" transform="translate(240 272) scale(1.15)" stroke-linejoin="miter">
+      <path fill="#ddf3ef" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#b16fc1" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="crt-center-five-petals" stroke="#559185" stroke-width="1" fill="#ddf3ef">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="crt-center-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#ddf3ef"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#ddf3ef"/></g>
+      </g>
+    </g><g id="crt-right" transform="translate(291 273) scale(0.62)" stroke-linejoin="miter">
+      <path fill="#d8e9df" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#cf6abd" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="crt-right-five-petals" stroke="#559185" stroke-width="1" fill="#d8e9df">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="crt-right-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#d8e9df"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#d8e9df"/></g>
+      </g>
+    </g></g>
+    <g id="localized-signal-displacement" fill="none"><path d="M31 139H117M124 139H205M221 139H449" stroke="#42cfbf" stroke-width="2" opacity=".33"/><path d="M31 141H104M138 141H195M230 141H449" stroke="#db56b8" opacity=".34"/><path d="M44 228H92M321 228H416" stroke="#a4ebdf" stroke-width="2" opacity=".33"/><path d="M48 230H97M316 230H411" stroke="#da6ab9" opacity=".42"/></g>
+    <rect id="scanlines" x="30" y="34" width="420" height="260" fill="url(#crt-scanlines)" opacity=".3"/>
+    <rect id="screen-edge-shade" x="30" y="34" width="420" height="260" fill="url(#crt-vignette)"/>
+  </g>
+  <path id="glass-reflection" d="M51 42Q40 43 37 72V184" fill="none" stroke="#9fa4b0" stroke-width="2" opacity=".27"/>
+
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="specimen-ghost-pipe-title specimen-ghost-pipe-desc">
+  <title id="specimen-ghost-pipe-title">Ghost pipe specimen composition</title>
+  <desc id="specimen-ghost-pipe-desc">An original illustrative field-plate study of Monotropa uniflora, ghost pipe. Three ivory achlorophyllous stems carry reduced scale leaves and one open downward nodding flower each, with separate overlapping obovate rounded petals, a visible lower opening and included reproductive hints. Separate details show one scale leaf and five obovate petals; fine leaders and plain layout rules support an adaptable specimen composition. This unverified vector study is not a taxonomic key or a life-size scientific plate.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  
+
+  <rect id="paper" width="480" height="360" fill="#f2eddf"/>
+  <path id="plate-border" d="M21 24H459V337H21Z" fill="none" stroke="#b8b1a2" stroke-width=".8"/>
+  <g id="paper-grain" fill="none" stroke="#bcb3a1" stroke-width=".6" opacity=".5"><path d="M28 32h2"/><path d="M94 50h2"/><path d="M390 46h2"/><path d="M437 85h2"/><path d="M45 120h2"/><path d="M415 137h2"/><path d="M30 255h2"/><path d="M68 315h2"/><path d="M410 310h2"/><path d="M381 335h2"/><path d="M127 343h2"/><path d="M456 230h2"/><path d="M183 28h2"/></g>
+  <g id="specimen-shadows" fill="#8b7c6d" opacity=".09"><ellipse cx="248" cy="305" rx="77" ry="8"/></g>
+  <g id="main-specimen"><g id="specimen-left" transform="translate(207 304) scale(1.16)" stroke="#8d8880" stroke-width="1.3" stroke-linejoin="round">
+      <path id="specimen-left-stem" fill="#f2efe5" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="specimen-left-scales" fill="#ddd0c5">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="specimen-left-flower" fill="#f2efe5">
+        <path id="specimen-left-sepal-left" fill="#ddd0c5" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="specimen-left-sepal-right" fill="#ddd0c5" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="specimen-left-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="specimen-left-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="specimen-left-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="specimen-left-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="specimen-left-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="specimen-left-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#8d8880" stroke="#f2efe5" stroke-width="1.7"/>
+          <g id="specimen-left-included-reproductive-parts" fill="#ddd0c5" stroke="#ddd0c5" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#f2efe5" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g><g id="specimen-right" transform="translate(283 305) scale(0.89)" stroke="#8d8880" stroke-width="1.3" stroke-linejoin="round">
+      <path id="specimen-right-stem" fill="#eae7dd" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="specimen-right-scales" fill="#d7c8bf">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="specimen-right-flower" fill="#eae7dd">
+        <path id="specimen-right-sepal-left" fill="#d7c8bf" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="specimen-right-sepal-right" fill="#d7c8bf" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="specimen-right-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="specimen-right-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="specimen-right-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="specimen-right-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="specimen-right-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="specimen-right-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#8d8880" stroke="#eae7dd" stroke-width="1.7"/>
+          <g id="specimen-right-included-reproductive-parts" fill="#d7c8bf" stroke="#d7c8bf" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#eae7dd" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g><g id="specimen-center" transform="translate(250 306) scale(1.34)" stroke="#8d8880" stroke-width="1.3" stroke-linejoin="round">
+      <path id="specimen-center-stem" fill="#f6f3e9" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="specimen-center-scales" fill="#dfcfc7">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="specimen-center-flower" fill="#f6f3e9">
+        <path id="specimen-center-sepal-left" fill="#dfcfc7" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="specimen-center-sepal-right" fill="#dfcfc7" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="specimen-center-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="specimen-center-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="specimen-center-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="specimen-center-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="specimen-center-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="specimen-center-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#8d8880" stroke="#f6f3e9" stroke-width="1.7"/>
+          <g id="specimen-center-included-reproductive-parts" fill="#dfcfc7" stroke="#dfcfc7" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#f6f3e9" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g></g>
+  <g id="scale-leaf-detail" stroke="#9a9286" stroke-width="1" fill="none"><circle cx="81" cy="115" r="40"/><path d="M73 145C71 118 76 95 82 83L89 85C82 107 80 125 81 145Z" fill="#ece7dc"/><path d="M76 128C55 109 56 95 62 91C75 103 79 115 80 125Z" fill="#dfd0c6"/><path d="M68 104L76 124"/><path d="M121 120H154L200 207" stroke-dasharray="3 3"/></g>
+  <g id="petal-detail"><path d="M90 273C88 279 81 287 83 297Q84 305 90 305Q96 305 97 297C99 288 92 279 90 273Z" fill="#eeeadf" stroke="#928d83" stroke-width="1"/><path d="M107 273C105 279 98 287 100 297Q101 305 107 305Q113 305 114 297C116 288 109 279 107 273Z" fill="#eeeadf" stroke="#928d83" stroke-width="1"/><path d="M124 273C122 279 115 287 117 297Q118 305 124 305Q130 305 131 297C133 288 126 279 124 273Z" fill="#eeeadf" stroke="#928d83" stroke-width="1"/><path d="M141 273C139 279 132 287 134 297Q135 305 141 305Q147 305 148 297C150 288 143 279 141 273Z" fill="#eeeadf" stroke="#928d83" stroke-width="1"/><path d="M158 273C156 279 149 287 151 297Q152 305 158 305Q164 305 165 297C167 288 160 279 158 273Z" fill="#eeeadf" stroke="#928d83" stroke-width="1"/><path d="M85 312H164M85 309V315M164 309V315" fill="none" stroke="#9a9286" stroke-width=".9"/></g>
+  <g id="morphology-leaders" fill="none" stroke="#9e9689" stroke-width=".8"><path d="M314 116L358 84H420"/><circle cx="314" cy="116" r="2" fill="#9e9689"/><path d="M254 224L365 232H420"/><circle cx="254" cy="224" r="2" fill="#9e9689"/><path d="M208 270L154 237H58"/><circle cx="208" cy="270" r="2" fill="#9e9689"/></g>
+  <g id="layout-separator" stroke="#b9b0a1" stroke-width=".8"><path d="M346 312H417"/></g>
+  <g id="unlabelled-layout-rule" fill="none" stroke="#b9b0a1" stroke-width=".8"><path d="M40 42H146M335 42H440M40 325H111"/></g>
+
+</svg>

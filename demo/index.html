@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: Unlicense -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Six editable Uniflora aesthetic presets. A free, offline creative system, version 0.1.">
+  <title>Uniflora / Creative system 0.1</title>
+  <link rel="stylesheet" href="../presets/tokens.css">
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<a class="skip" href="#presets">Skip to presets</a>
+<header>
+  <p class="eyebrow">Uniflora / Creative system / 0.1 initial release</p>
+  <h1>A language for<br>unseen relationships.</h1>
+  <p class="intro">Choose a subject. Keep its meaning intact. Use one of six visual branches to shape depth, rhythm, material, and perception. This headline and these palettes are editable examples, not required Uniflora branding.</p>
+  <nav aria-label="Project resources"><a href="../README.md">Start here</a><a href="../docs/STYLE-GUIDE.md">Style guide</a><a href="../prompts/TEMPLATE.md">Prompt template</a><a href="../docs/RIGHTS-REVIEW.md">Rights review</a></nav>
+</header>
+<main id="presets" tabindex="-1">
+  <p class="note">Six new vector studies demonstrate the recovered directions. Identifiable ghost pipe is drawn with scale leaves and one nodding flower per stem. These stylized studies are not botanical identification plates.</p>
+  <div class="gallery">
+    <article class="preset" data-uniflora="isometric-idm">
+      <p class="index">01 / rhythm · inversion · depth</p><h2>Isometric botanical IDM</h2>
+      <figure class="art"><img src="../assets/svg/isometric-signal.svg" width="480" height="360" alt="Ivory ghost-pipe stems on mirrored isometric platforms with turquoise stepped signal paths."></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>turquoise / forest / ivory</span></div>
+      <p>16-bit forms occupy a consistent isometric lattice. Paired paths imply communication through shared rhythm and alignment.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="isometric-idm"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>Use the semantic color variables from tokens.css on your own components. See prompt example 01.</p></details>
+    </article>
+    <article class="preset" data-uniflora="engraved-architecture">
+      <p class="index">02 / contradictions · pressure · fold</p><h2>Impossible engraved architecture</h2>
+      <figure class="art"><img src="../assets/svg/engraved-fold.svg" width="480" height="360" alt="Romanesque arches, conflicting stair levels, cross-hatched masonry, and an original faceted folded surface."></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>black / ivory / print</span></div>
+      <p>Readable local spaces form an impossible whole. Projection lines bend across the facets of an original tessellation.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="engraved-architecture"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>Keep dense hatching behind the artwork, with clear paper around interface text. See prompt example 02.</p></details>
+    </article>
+    <article class="preset" data-uniflora="crt-worlds">
+      <p class="index">03 / continuity · signal · phosphor</p><h2>CRT botanical worlds</h2>
+      <input class="crt-toggle" id="crt-motion" type="checkbox"><label for="crt-motion">Enable slow screen scanline drift</label>
+      <figure class="art"><img src="../assets/svg/crt-forest.svg" width="480" height="360" alt="A fixed CRT display contains a pixel forest, crescent moon, and cyan and magenta accents around ivory ghost pipe."><div class="crt-screen" aria-hidden="true"></div></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>cyan / magenta / forest</span></div>
+      <p>The bezel stays still. Optional distortion stays within the screen, preserving the forest and its landmarks.</p>
+      <p class="note">Static by default. Reduced-motion preferences disable movement even when this control is checked. The ghost pipe is not naturally bioluminescent.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="crt-worlds"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>For animation, lock the camera and clip every effect to the display interior. See prompt example 03.</p></details>
+    </article>
+    <article class="preset" data-uniflora="nocturnal-optics">
+      <p class="index">04 / mist · refraction · distance</p><h2>Nocturnal botanical optics</h2>
+      <figure class="art"><img src="../assets/svg/nocturnal-optics.svg" width="480" height="360" alt="Moonlight, layered mist, luminous lichen marks, and soft refractive arcs surround an ivory flowering stem."></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>silver / lavender / teal</span></div>
+      <p>One focal plane anchors a quiet garden. Light separation and refraction create distance without obscuring the subject.</p>
+      <p class="note">Optical glow and luminous lichen here are artistic interpretations, not biological claims.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="nocturnal-optics"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>Keep bloom away from reading surfaces. Use optical effects sparingly. See prompt example 04.</p></details>
+    </article>
+    <article class="preset" data-uniflora="kilim-burdock">
+      <p class="index">05 / repetition · hook · reversal</p><h2>Kilim and burdock</h2>
+      <figure class="art"><img src="../assets/svg/kilim-burdock.svg" width="480" height="360" alt="Centered diamond and hook forms repeat in a balanced textile-like card with half-turn symmetry."></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>rust / teal / woven earth</span></div>
+      <p>Balanced repetition and 180-degree reversal give a card two equivalent orientations. Neighboring hooks establish rhythm.</p>
+      <p class="note">A new geometric interpretation. No historical textile, regional provenance, or traditional meaning is claimed.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="kilim-burdock"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>Reversal belongs to the art; keep reading order and interface labels upright. See prompt example 05.</p></details>
+    </article>
+    <article class="preset" data-uniflora="botanical-specimen">
+      <p class="index">06 / morphology · annotation · paper</p><h2>Botanical specimen art</h2>
+      <figure class="art"><img src="../assets/svg/specimen-ghost-pipe.svg" width="480" height="360" alt="An original schematic ghost-pipe study on ivory paper, showing scale leaves and separate overlapping petals on nodding flowers."></figure>
+      <div class="swatches" aria-hidden="true"><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><span>paper / graphite / green</span></div>
+      <p>Morphology controls the silhouette. Margins and leader lines adapt the study to a field-guide page, album cover, or poster.</p>
+      <p class="note"><i>Monotropa uniflora</i> is a flowering plant that obtains carbon through fungi. Check botanical references before publishing identification material.</p>
+      <details><summary>Use this preset</summary><pre>&lt;section data-uniflora="botanical-specimen"&gt;
+  &lt;h2&gt;Your subject stays central&lt;/h2&gt;
+&lt;/section&gt;</pre><p>Use documented specimens for fine diagnostic details. Never invent measurements. See prompt example 06.</p></details>
+    </article>
+  </div>
+</main>
+<footer><p class="rule">Built without JavaScript, network assets, bundled fonts, or subscriptions. Code: Unlicense. Original SVGs and documentation: CC BY 4.0. Maintained by sporemound; creative material credited to Uniflora contributors. See <a href="../ATTRIBUTION.md">attribution</a> and the <a href="../docs/REVIEW-CHECKLIST.md">release checklist</a>.</p></footer>
+</body>
+</html>

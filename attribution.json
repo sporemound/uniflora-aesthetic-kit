@@ -1,0 +1,194 @@
+{
+  "version": "0.1.0",
+  "status": "initial-v0.1-release-for-review",
+  "dateUTC": "2026-10-10",
+  "datePacific": "2026-10-09",
+  "aiAssistance": "Code, documentation, prompt examples and vector paths authored with ChatGPT/Codex assistance for the creator brief; selection/review disclosed. AI is not identified as rights holder.",
+  "licenseScope": {
+    "software": [
+      "demo/*.html",
+      "demo/*.css",
+      "presets/*.json",
+      "presets/*.css",
+      "tools/*.py"
+    ],
+    "softwareLicense": "Unlicense",
+    "documentation": [
+      "*.md",
+      "docs/*.md",
+      "assets/README.md",
+      "prompts/*.md",
+      "prompts/*.json",
+      "attribution.json"
+    ],
+    "documentationLicense": "CC-BY-4.0",
+    "artwork": [
+      "assets/svg/*.svg"
+    ],
+    "artworkLicense": "CC-BY-4.0"
+  },
+  "fonts": {
+    "bundled": [],
+    "networkRequests": false,
+    "families": [
+      "system-ui, sans-serif",
+      "ui-serif, serif",
+      "ui-monospace, monospace"
+    ],
+    "redistribution": "No font binaries distributed; installed fonts resolved locally."
+  },
+  "includedThirdPartyVisualAssets": [],
+  "assets": [
+    {
+      "path": "assets/svg/isometric-signal.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; botanical flower silhouettes refined during review where relevant.",
+      "notes": "Original stepped isometric signal geometry; schematic ghost pipe.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    },
+    {
+      "path": "assets/svg/engraved-fold.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; botanical flower silhouettes refined during review where relevant.",
+      "notes": "Original arches, conflicting levels, hatching and facets; no artist image or folding diagram copied.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    },
+    {
+      "path": "assets/svg/crt-forest.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; botanical flower silhouettes refined during review where relevant.",
+      "notes": "Original pixel forest and fixed screen; no commercial sprites; invented lighting.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    },
+    {
+      "path": "assets/svg/nocturnal-optics.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; botanical flower silhouettes refined during review where relevant.",
+      "notes": "Original garden optics and light geometry; glow is artistic interpretation.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    },
+    {
+      "path": "assets/svg/kilim-burdock.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; botanical flower silhouettes refined during review where relevant.",
+      "notes": "Original centered hook/diamond/radial geometry; new interpretation, no traditional meaning asserted.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    },
+    {
+      "path": "assets/svg/specimen-ghost-pipe.svg",
+      "origin": "new-v0.1-original-ai-assisted",
+      "authorCredit": "Uniflora contributors",
+      "sourceURL": null,
+      "license": "CC-BY-4.0",
+      "redistributionBasis": "Original project paths; no imported third-party visual resource",
+      "changes": "New in v0.1; nodding flower silhouettes refined during review; uncalibrated specimen scale markings removed.",
+      "notes": "Original morphology-led schematic; not traced or an identification plate.",
+      "unresolved": "No imported third-party material; copyright protection for AI-assisted expression not assured; expert review required for botanical identification use."
+    }
+  ],
+  "references": [
+    {
+      "id": "B1",
+      "url": "https://gobotany.nativeplanttrust.org/species/monotropa/uniflora/",
+      "consultedUTC": "2026-10-10",
+      "use": "Factual morphology/ecology; photos and full source text excluded",
+      "bundledResource": false
+    },
+    {
+      "id": "B2",
+      "url": "https://powo.science.kew.org/taxon/281016-2",
+      "consultedUTC": "2026-10-10",
+      "use": "Accepted scientific name and family; no imagery/dataset copied",
+      "bundledResource": false
+    },
+    {
+      "id": "R1",
+      "url": "https://unlicense.org/",
+      "consultedUTC": "2026-10-10",
+      "use": "Existing repository Unlicense retained",
+      "bundledResource": true,
+      "includedPath": "licenses/Unlicense.txt",
+      "verificationURL": "https://opensource.org/license/unlicense"
+    },
+    {
+      "id": "R2",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "consultedUTC": "2026-10-10",
+      "use": "Complete legal code included separately; legal text CC0",
+      "bundledResource": true,
+      "includedPath": "licenses/CC-BY-4.0.txt"
+    },
+    {
+      "id": "R3",
+      "url": "https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software",
+      "consultedUTC": "2026-10-10",
+      "use": "Software/art/documentation license distinction",
+      "bundledResource": false
+    },
+    {
+      "id": "A1",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "consultedUTC": "2026-10-10",
+      "use": "Contrast target paraphrase",
+      "bundledResource": false
+    },
+    {
+      "id": "A2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "consultedUTC": "2026-10-10",
+      "use": "Essential UI contrast guidance",
+      "bundledResource": false
+    },
+    {
+      "id": "A3",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "consultedUTC": "2026-10-10",
+      "use": "Nonessential interaction animation guidance; no AAA compliance claim",
+      "bundledResource": false
+    },
+    {
+      "id": "A4",
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/css/C39.html",
+      "consultedUTC": "2026-10-10",
+      "use": "Reduced-motion CSS technique",
+      "bundledResource": false
+    }
+  ],
+  "historicalAssets": {
+    "included": false,
+    "rightsVerified": false,
+    "note": "Recovered directions and scoped choices are documented; previous images/logos/lettering not bundled."
+  },
+  "culturalContext": {
+    "kilimBurdock": "New generic interpretation; no regional or universal symbolic meaning established."
+  },
+  "unresolvedBeforePublication": [
+    "No third-party included assets awaiting clearance. Historical referenced images excluded and not audited.",
+    "No jurisdiction-independent copyrightability assurance for AI-assisted expression.",
+    "Reference names do not confer trademark rights or endorsement; future imported resources require review."
+  ],
+  "maintainer": "sporemound",
+  "repository": "https://github.com/sporemound/uniflora-aesthetic-kit",
+  "publicationAuthorization": "Creator explicitly instructed publication to this existing repository after completion on 2026-10-09 Pacific.",
+  "attribution": "Uniflora contributors"
+}

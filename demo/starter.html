@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: Unlicense -->
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uniflora preset starter</title>
+<link rel="stylesheet" href="../presets/tokens.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 1rem/1.6 system-ui, sans-serif; }
+  .panel { min-height: 100vh; padding: clamp(1.5rem, 6vw, 5rem);
+    color: var(--uf-text); background: var(--uf-bg); }
+  h1 { max-width: 24ch; font-family: var(--uf-heading); line-height: 1.2; }
+  p { max-width: 60ch; }
+  a { color: var(--uf-accent); text-underline-offset: .2em; }
+  a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
+  .note { color: var(--uf-muted); }
+</style>
+<!-- Change the branch: isometric-idm, engraved-architecture, crt-worlds,
+     nocturnal-optics, kilim-burdock, or botanical-specimen. -->
+<main class="panel" data-uniflora="isometric-idm">
+  <h1>Community audio archive</h1>
+  <p>Recordings, listening notes, and conversations remain the subject.
+     Replace this example with your own content and composition.</p>
+  <p class="note">This preset applies color and type roles. Add only the
+     geometry and texture that serve your subject.</p>
+  <a href="index.html">Explore all six presets</a>
+</main>
+</html>

@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "record_type": "prompt-template",
+  "status": "new-proposal",
+  "instructions": [
+    "Replace placeholders with the chosen subject and its invariants before changing style.",
+    "Use the prompt fields as a drawing brief or provider-neutral image prompt. Metadata is not visible image text.",
+    "Choose one primary branch; a secondary material must not replace the subject or primary structure.",
+    "The palette and lettering are choices for this brief, not universal Uniflora requirements.",
+    "Verify plant anatomy and exact text after production. Generated raster output is not automatically editable vector source.",
+    "Scope every exclusion to its brief. A logo's rejection of simulated glitch does not prohibit CRT distortion."
+  ],
+  "allowed_branches": [
+    "isometric-idm",
+    "engraved-architecture",
+    "crt-worlds",
+    "nocturnal-optics",
+    "kilim-burdock",
+    "botanical-specimen"
+  ],
+  "prompt": {
+    "subject": {
+      "description": "[specific subject, setting, and action]",
+      "meaning_to_preserve": "[what the subject communicates]",
+      "invariant_features": [
+        "[recognizable feature 1]",
+        "[recognizable feature 2]"
+      ]
+    },
+    "branch": "isometric-idm",
+    "medium": "[medium, aspect ratio, intended size, and use]",
+    "composition": "[focal point, projection, spatial layers or flat hierarchy, negative space, symmetry or inversion, and crop]",
+    "palette": "[dominant, supporting, and accent colors; note where accents are confined]",
+    "optics": "[none, or a specific optical treatment tied to a visible material and focal relationship]",
+    "abstraction": "[abstract concept translated into repeat interval, mirrored relationship, offset, layer reveal, or local spatial contradiction; distinguish literal from schematic]",
+    "text": {
+      "mode": "none",
+      "literal": "",
+      "placement": "[optional reserved area for later editable text]",
+      "instructions": "Use mode none or literal. When literal, fill the exact string and verify every character; a separate editable text layer is preferred."
+    },
+    "exclusions": [
+      "Do not replace the subject with generic occult marks, cyberpunk decoration, unmotivated noise, or a default glowing-mushroom scene.",
+      "[additional exclusion and its local reason]"
+    ],
+    "biology": {
+      "species": [],
+      "life_stage": "[if relevant]",
+      "traits_to_preserve": [],
+      "reference": "[verified source and date, or no identifiable plants requested]",
+      "status": "artistic-study-unverified",
+      "instructions": "Identifiable plants require reference-checked morphology. Label simplified work schematic; do not use an unchecked illustration for field identification."
+    },
+    "motion": {
+      "mode": "static",
+      "duration_seconds": null,
+      "allowed_changes": [],
+      "locked_elements": [],
+      "continuity": "[for animation: preserve existing objects and scene identity; matching loop endpoint if required]",
+      "accessibility": "Provide a static alternative and pause control when animated; respect reduced motion; no flashes or rapid hue oscillation."
+    }
+  }
+}

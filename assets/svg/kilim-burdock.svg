@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="kilim-burdock-title kilim-burdock-desc">
+  <title id="kilim-burdock-title">Reversible hook-diamond and burdock study</title>
+  <desc id="kilim-burdock-desc">An original reversible card composition using centered diamonds, balanced angular hooks, repeated borders, and small burr-like hooked rosettes. It is a newly proposed generic geometric textile interpretation, not a recovered Uniflora artifact or an authenticated motif from a named weaving tradition. No traditional meaning is asserted.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  <defs><pattern id="woven-lines" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0V4M0 2H4" stroke="#736b58" stroke-width=".35"/></pattern></defs>
+
+  <rect id="background" width="480" height="360" fill="#eee1c6"/>
+  <g id="woven-grain" fill="none" stroke="#6b6555" stroke-width=".4" opacity=".14"><path d="M0 6H480M0 354H480"/><rect x="33" y="51" width="414" height="258" fill="url(#woven-lines)"/></g>
+  <g id="repeating-border" fill="#283f41"><path d="M42 25L52 35L42 45L32 35Z M42 315L52 325L42 335L32 325Z"/><path d="M78 25L88 35L78 45L68 35Z M78 315L88 325L78 335L68 325Z"/><path d="M114 25L124 35L114 45L104 35Z M114 315L124 325L114 335L104 325Z"/><path d="M150 25L160 35L150 45L140 35Z M150 315L160 325L150 335L140 325Z"/><path d="M186 25L196 35L186 45L176 35Z M186 315L196 325L186 335L176 325Z"/><path d="M222 25L232 35L222 45L212 35Z M222 315L232 325L222 335L212 325Z"/><path d="M258 25L268 35L258 45L248 35Z M258 315L268 325L258 335L248 325Z"/><path d="M294 25L304 35L294 45L284 35Z M294 315L304 325L294 335L284 325Z"/><path d="M330 25L340 35L330 45L320 35Z M330 315L340 325L330 335L320 325Z"/><path d="M366 25L376 35L366 45L356 35Z M366 315L376 325L366 335L356 325Z"/><path d="M402 25L412 35L402 45L392 35Z M402 315L412 325L402 335L392 325Z"/><path d="M438 25L448 35L438 45L428 35Z M438 315L448 325L438 335L428 325Z"/><path d="M18 62L28 72L18 82L8 72Z M462 62L472 72L462 82L452 72Z"/><path d="M18 98L28 108L18 118L8 108Z M462 98L472 108L462 118L452 108Z"/><path d="M18 134L28 144L18 154L8 144Z M462 134L472 144L462 154L452 144Z"/><path d="M18 170L28 180L18 190L8 180Z M462 170L472 180L462 190L452 180Z"/><path d="M18 206L28 216L18 226L8 216Z M462 206L472 216L462 226L452 216Z"/><path d="M18 242L28 252L18 262L8 252Z M462 242L472 252L462 262L452 252Z"/><path d="M18 278L28 288L18 298L8 288Z M462 278L472 288L462 298L452 288Z"/></g>
+  <g id="balanced-corner-modules">
+      <path d="M160 72L199 111L160 150L121 111Z" fill="#94614b"/>
+      <path d="M160 82L189 111L160 140L131 111Z" fill="#eee1c6"/>
+      <path d="M160 92L179 111L160 130L141 111Z" fill="#64796d"/>
+      <path d="M160 72V58H144V67H153 M121 111H107V95H116V104 M199 111H213V95H204V104 M160 150V164H144V155H153" fill="none" stroke="#94614b" stroke-width="5"/>
+      <path d="M77 79L96 98L77 117L58 98Z" fill="#64796d"/>
+      <path d="M77 87L88 98L77 109L66 98Z" fill="#eee1c6"/>
+      <path d="M112 55H118V62H112Z M201 73H207V80H201Z" fill="#ad8c4a"/>
+<g transform="translate(480 0) scale(-1 1)">
+      <path d="M160 72L199 111L160 150L121 111Z" fill="#94614b"/>
+      <path d="M160 82L189 111L160 140L131 111Z" fill="#eee1c6"/>
+      <path d="M160 92L179 111L160 130L141 111Z" fill="#64796d"/>
+      <path d="M160 72V58H144V67H153 M121 111H107V95H116V104 M199 111H213V95H204V104 M160 150V164H144V155H153" fill="none" stroke="#94614b" stroke-width="5"/>
+      <path d="M77 79L96 98L77 117L58 98Z" fill="#64796d"/>
+      <path d="M77 87L88 98L77 109L66 98Z" fill="#eee1c6"/>
+      <path d="M112 55H118V62H112Z M201 73H207V80H201Z" fill="#ad8c4a"/>
+</g><g transform="translate(0 360) scale(1 -1)">
+      <path d="M160 72L199 111L160 150L121 111Z" fill="#94614b"/>
+      <path d="M160 82L189 111L160 140L131 111Z" fill="#eee1c6"/>
+      <path d="M160 92L179 111L160 130L141 111Z" fill="#64796d"/>
+      <path d="M160 72V58H144V67H153 M121 111H107V95H116V104 M199 111H213V95H204V104 M160 150V164H144V155H153" fill="none" stroke="#94614b" stroke-width="5"/>
+      <path d="M77 79L96 98L77 117L58 98Z" fill="#64796d"/>
+      <path d="M77 87L88 98L77 109L66 98Z" fill="#eee1c6"/>
+      <path d="M112 55H118V62H112Z M201 73H207V80H201Z" fill="#ad8c4a"/>
+</g><g transform="translate(480 360) scale(-1 -1)">
+      <path d="M160 72L199 111L160 150L121 111Z" fill="#94614b"/>
+      <path d="M160 82L189 111L160 140L131 111Z" fill="#eee1c6"/>
+      <path d="M160 92L179 111L160 130L141 111Z" fill="#64796d"/>
+      <path d="M160 72V58H144V67H153 M121 111H107V95H116V104 M199 111H213V95H204V104 M160 150V164H144V155H153" fill="none" stroke="#94614b" stroke-width="5"/>
+      <path d="M77 79L96 98L77 117L58 98Z" fill="#64796d"/>
+      <path d="M77 87L88 98L77 109L66 98Z" fill="#eee1c6"/>
+      <path d="M112 55H118V62H112Z M201 73H207V80H201Z" fill="#ad8c4a"/>
+</g></g>
+  <g id="centered-diamond" stroke-linejoin="miter">
+    <path d="M240 75L345 180L240 285L135 180Z" fill="#283f41"/>
+    <path d="M240 87L333 180L240 273L147 180Z" fill="#ad8c4a"/>
+    <path d="M240 97L323 180L240 263L157 180Z" fill="#eee1c6"/>
+    <path d="M240 114L306 180L240 246L174 180Z" fill="#94614b"/>
+    <path d="M240 130L290 180L240 230L190 180Z" fill="#eee1c6"/>
+    <path d="M240 143L277 180L240 217L203 180Z" fill="#64796d"/>
+    <g fill="none" stroke="#283f41" stroke-width="5"><path d="M240 75V59H224V69H232 M345 180H362V163H352V172 M240 285V301H256V291H248 M135 180H118V197H128V188"/><path d="M240 75V59H256V69H248 M345 180H362V197H352V188 M240 285V301H224V291H232 M135 180H118V163H128V172"/></g>
+  </g>
+  <g id="burdock-hook-interpretation" fill="none" stroke="#eee1c6" stroke-width="2.1" stroke-linecap="round" transform="translate(240 180)"><circle r="12"/><path transform="rotate(0)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(30)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(60)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(90)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(120)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(150)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(180)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(210)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(240)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(270)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(300)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(330)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/></g>
+  <g id="side-burr-echoes" fill="none" stroke="#94614b" stroke-width="2" stroke-linecap="round"><g transform="translate(74 180) scale(.73)"><circle r="12"/><path transform="rotate(0)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(30)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(60)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(90)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(120)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(150)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(180)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(210)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(240)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(270)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(300)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(330)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/></g><g transform="translate(406 180) rotate(180) scale(.73)"><circle r="12"/><path transform="rotate(0)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(30)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(60)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(90)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(120)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(150)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(180)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(210)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(240)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(270)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(300)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/><path transform="rotate(330)" d="M0-10V-20Q0-27 6-24Q9-23 7-19"/></g></g>
+
+</svg>

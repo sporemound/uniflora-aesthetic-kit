@@ -1,0 +1,72 @@
+/* SPDX-License-Identifier: Unlicense
+   New v0.1 proposal. No fonts are bundled or fetched. */
+:root {
+  --uf-font-body: system-ui, sans-serif;
+  --uf-font-display: ui-serif, serif;
+  --uf-font-mono: ui-monospace, monospace;
+  --uf-space-sm: .5rem;
+  --uf-space-md: 1rem;
+  --uf-space-lg: 2rem;
+  --uf-bg: #F7F2E8;
+  --uf-surface: #FFFCF5;
+  --uf-text: #282E29;
+  --uf-muted: #606B5C;
+  --uf-accent: #385B45;
+  --uf-decor: #A4AE95;
+  --uf-heading: var(--uf-font-display);
+}
+[data-uniflora="isometric-idm"] {
+  --uf-bg: #092E2C;
+  --uf-surface: #123D35;
+  --uf-text: #F4F1DC;
+  --uf-muted: #A4C4B6;
+  --uf-accent: #63DDC8;
+  --uf-decor: #1F5F46;
+  --uf-heading: ui-monospace, monospace;
+}
+[data-uniflora="engraved-architecture"] {
+  --uf-bg: #F3ECD9;
+  --uf-surface: #FBF7ED;
+  --uf-text: #201E1A;
+  --uf-muted: #635D53;
+  --uf-accent: #7A5523;
+  --uf-decor: #201E1A;
+  --uf-heading: ui-serif, serif;
+}
+[data-uniflora="crt-worlds"] {
+  --uf-bg: #071C1A;
+  --uf-surface: #123D35;
+  --uf-text: #EDF9E8;
+  --uf-muted: #9BC4B2;
+  --uf-accent: #65F1E8;
+  --uf-decor: #F99CE6;
+  --uf-heading: ui-monospace, monospace;
+}
+[data-uniflora="nocturnal-optics"] {
+  --uf-bg: #101C2B;
+  --uf-surface: #1D2B3C;
+  --uf-text: #EEF0F6;
+  --uf-muted: #B5BCCB;
+  --uf-accent: #8AD9CE;
+  --uf-decor: #C5B8DE;
+  --uf-heading: ui-serif, serif;
+}
+[data-uniflora="kilim-burdock"] {
+  --uf-bg: #F1E5CF;
+  --uf-surface: #FAF3E6;
+  --uf-text: #402A28;
+  --uf-muted: #715450;
+  --uf-accent: #28635D;
+  --uf-decor: #8E392C;
+  --uf-heading: system-ui, sans-serif;
+}
+[data-uniflora="botanical-specimen"] {
+  --uf-bg: #F7F2E8;
+  --uf-surface: #FFFCF5;
+  --uf-text: #282E29;
+  --uf-muted: #606B5C;
+  --uf-accent: #385B45;
+  --uf-decor: #A4AE95;
+  --uf-heading: ui-serif, serif;
+}
+

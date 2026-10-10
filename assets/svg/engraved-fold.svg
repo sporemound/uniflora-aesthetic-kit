@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="engraved-fold-title engraved-fold-desc">
+  <title id="engraved-fold-title">Engraved impossible folded interior</title>
+  <desc id="engraved-fold-desc">An original black-and-ivory Romanesque interior. Round arches, dense cross-hatching, an impossible elevated stair loop, and sharp folded rhombi share one room. Thin projection-like curves change direction over the folded ceiling and stair surfaces. No existing engraving or origami crease pattern is reproduced.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  <defs>
+    <pattern id="engraved-hatch" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#ded9cd"/><path d="M-1 1L5 7M2-2L8 4" stroke="#36382e" stroke-width=".7"/></pattern>
+    <pattern id="engraved-crosshatch" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="#c8c4b8"/><path d="M-1 1L6 8M1-1L8 6M-1 6L6-1M1 8L8 1" stroke="#292b24" stroke-width=".7"/></pattern>
+</defs>
+
+  <rect id="background" width="480" height="360" fill="#eee9dd"/>
+  <g id="crosshatched-room" stroke="#262721" stroke-width="1">
+    <path d="M20 337V26H460V337Z" fill="url(#engraved-hatch)"/>
+    <path d="M44 277V71L240 28L437 71V277L240 337Z" fill="#eee9dd"/>
+    <path d="M44 71L240 119L437 71M240 119V337M44 277L240 337L437 277" fill="none"/>
+    <path d="M44 71V277L72 284V78Z M409 78V284L437 277V71Z" fill="url(#engraved-hatch)"/>
+  </g>
+  <g id="romanesque-arches"><path d="M61 277V164A35.0 35.0 0 0 1 131 164V277Z" fill="#171816" stroke="#171816" stroke-width="7"/><path d="M54 278V164A42.0 42.0 0 0 1 138 164V278" fill="none" stroke="#171816" stroke-width="3"/><path d="M67 270V165A29.0 29.0 0 0 1 125 165V270" fill="none" stroke="#e9e4d8" stroke-width="1"/><path d="M146 277V125A38.0 38.0 0 0 1 222 125V277Z" fill="#171816" stroke="#171816" stroke-width="7"/><path d="M139 278V125A45.0 45.0 0 0 1 229 125V278" fill="none" stroke="#171816" stroke-width="3"/><path d="M152 270V126A32.0 32.0 0 0 1 216 126V270" fill="none" stroke="#e9e4d8" stroke-width="1"/><path d="M251 277V125A38.0 38.0 0 0 1 327 125V277Z" fill="#171816" stroke="#171816" stroke-width="7"/><path d="M244 278V125A45.0 45.0 0 0 1 334 125V278" fill="none" stroke="#171816" stroke-width="3"/><path d="M257 270V126A32.0 32.0 0 0 1 321 126V270" fill="none" stroke="#e9e4d8" stroke-width="1"/><path d="M349 277V164A35.0 35.0 0 0 1 419 164V277Z" fill="#171816" stroke="#171816" stroke-width="7"/><path d="M342 278V164A42.0 42.0 0 0 1 426 164V278" fill="none" stroke="#171816" stroke-width="3"/><path d="M355 270V165A29.0 29.0 0 0 1 413 165V270" fill="none" stroke="#e9e4d8" stroke-width="1"/></g>
+  <g id="folded-ceiling" stroke="#272823" stroke-width="1">
+    <path d="M44 71L140 48L240 119Z" fill="#c6c2b6"/>
+    <path d="M140 48L240 28L240 119Z" fill="url(#engraved-hatch)"/>
+    <path d="M240 28L340 48L240 119Z" fill="#ded9cd"/>
+    <path d="M340 48L437 71L240 119Z" fill="url(#engraved-crosshatch)"/>
+    <path d="M44 71L142 88L140 48 M142 88L240 119 M437 71L337 88L340 48 M337 88L240 119" fill="none"/>
+  </g>
+  <g id="folded-floor"><path d="M74 284L101 270L128 284L101 298Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M74 284L101 286L101 270M101 286L128 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M128 284L155 270L182 284L155 298Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M128 284L155 286L155 270M155 286L182 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M182 284L209 270L236 284L209 298Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M182 284L209 286L209 270M209 286L236 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M236 284L263 270L290 284L263 298Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M236 284L263 286L263 270M263 286L290 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M290 284L317 270L344 284L317 298Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M290 284L317 286L317 270M317 286L344 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M344 284L371 270L398 284L371 298Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M344 284L371 286L371 270M371 286L398 284" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M101 305L128 291L155 305L128 319Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M101 305L128 307L128 291M128 307L155 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M155 305L182 291L209 305L182 319Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M155 305L182 307L182 291M182 307L209 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M209 305L236 291L263 305L236 319Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M209 305L236 307L236 291M236 307L263 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M263 305L290 291L317 305L290 319Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M263 305L290 307L290 291M290 307L317 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M317 305L344 291L371 305L344 319Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M317 305L344 307L344 291M344 307L371 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M371 305L398 291L425 305L398 319Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M371 305L398 307L398 291M398 307L425 305" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M74 326L101 312L128 326L101 340Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M74 326L101 328L101 312M101 328L128 326" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M128 326L155 312L182 326L155 340Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M128 326L155 328L155 312M155 328L182 326" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M182 326L209 312L236 326L209 340Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M182 326L209 328L209 312M209 328L236 326" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M236 326L263 312L290 326L263 340Z" fill="#aca89b" stroke="#292a25" stroke-width=".8"/><path d="M236 326L263 328L263 312M263 328L290 326" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M290 326L317 312L344 326L317 340Z" fill="#ded8cc" stroke="#292a25" stroke-width=".8"/><path d="M290 326L317 328L317 312M317 328L344 326" fill="none" stroke="#292a25" stroke-width=".7"/><path d="M344 326L371 312L398 326L371 340Z" fill="#262721" stroke="#292a25" stroke-width=".8"/><path d="M344 326L371 328L371 312M371 328L398 326" fill="none" stroke="#292a25" stroke-width=".7"/></g>
+  <g id="impossible-stair-loop" stroke="#23251f" stroke-width="1.4" stroke-linejoin="round">
+    <path d="M119 248L239 188L360 246L239 307Z" fill="#eee9dd"/>
+    <path d="M119 248V231L239 170L360 230V246L239 188Z" fill="url(#engraved-hatch)"/>
+    <path d="M157 246L239 205L322 245L239 286Z" fill="#171816"/>
+    <path d="M119 231L157 212L181 224L143 243Z M143 243L181 224V231L143 250Z M143 250L182 231L205 243L168 262Z M168 262L205 243V250L168 269Z M168 269L205 250L230 262L192 281Z M192 281L230 262V269L192 288Z" fill="#e8e3d6"/>
+    <path d="M239 170L263 183L225 201L201 189Z M263 183V190L225 208V201Z M263 190L287 202L248 222L225 208Z M287 202V209L248 229V222Z M287 209L311 221L272 242L248 229Z M311 221V228L272 249V242Z M311 228L335 240L296 260L272 249Z" fill="#e8e3d6"/>
+    <path d="M119 231V312L141 323V243Z M337 241V305L360 294V230Z" fill="url(#engraved-crosshatch)"/>
+    <path d="M201 189V136L222 126V200Z" fill="url(#engraved-hatch)"/>
+    <path d="M222 126L239 134L239 170L225 201Z" fill="#eee9dd"/>
+  </g>
+  <g id="deformed-projection-lines" fill="none" stroke="#eee9dd" stroke-width="1.1">
+    <path d="M71 70L134 55L166 94L240 108L312 94L346 55L409 70"/>
+    <path d="M81 66L132 61L171 96L240 100L307 96L348 61L398 66"/>
+    <path d="M91 63L130 68L176 98L240 92L302 98L350 68L389 63"/>
+  </g>
+  <g id="surface-contours" fill="none" stroke="#6a6b61" stroke-width=".7"><path d="M129 245L241 182L349 238M132 250L241 191L345 244M183 273L218 256M188 276L222 260M195 280L229 264"/></g>
+
+</svg>

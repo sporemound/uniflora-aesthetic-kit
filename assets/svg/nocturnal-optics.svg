@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="nocturnal-optics-title nocturnal-optics-desc">
+  <title id="nocturnal-optics-title">Nocturnal botanical optical garden</title>
+  <desc id="nocturnal-optics-desc">An original vector interpretation of a moonlit garden: ivory ghost pipes with reduced scale leaves and one open nodding flower each, overlapping rounded obovate petals, lower flower openings and inset reproductive hints, fine branching lichen-like marks, mist layers, oval bokeh, silver-lavender moonlight, and restrained refracted teal, pink, and gold arcs. Glow is an artistic treatment, not a claim that ghost pipe is bioluminescent.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  <defs>
+    <linearGradient id="night-sky" x2="0" y2="1"><stop stop-color="#101825"/><stop offset=".68" stop-color="#23383e"/><stop offset="1" stop-color="#172e30"/></linearGradient>
+    <radialGradient id="moon-glow"><stop stop-color="#c5c3dd" stop-opacity=".5"/><stop offset="1" stop-color="#a4abc5" stop-opacity="0"/></radialGradient>
+</defs>
+
+  <rect id="background" width="480" height="360" fill="url(#night-sky)"/>
+  <g id="moon"><circle cx="302" cy="71" r="33" fill="url(#moon-glow)"/><circle cx="302" cy="71" r="22" fill="#c8c9d6"/><path d="M309 53Q324 66 314 85Q305 93 294 89Q322 95 324 74Q325 60 309 53Z" fill="#aeaabb"/></g>
+  <g id="distant-garden" fill="#123a3c"><path d="M0 289C35 232 46 270 71 243S109 275 137 247S183 278 206 251S251 275 277 246S320 276 347 238S393 271 425 234S464 246 480 223V360H0Z"/><path d="M28 302C43 217 47 189 40 158C53 184 58 238 44 313M400 312C418 235 437 221 450 207C428 245 419 276 417 321"/></g>
+  <g id="mist" fill="none" stroke="#a5b4c7" stroke-linecap="round"><path d="M-10 212C91 170 131 247 248 208S382 210 498 175" stroke-width="22" opacity=".07"/><path d="M-10 262C75 237 169 289 276 244S388 274 491 237" stroke-width="32" opacity=".1"/><path d="M-15 305C80 293 129 316 228 300S375 315 499 289" stroke-width="16" opacity=".13"/></g>
+  <g id="oval-bokeh" fill="none" stroke="#c0bdc9" opacity=".24"><ellipse cx="73" cy="82" rx="28" ry="17"/><ellipse cx="398" cy="120" rx="18" ry="11"/><ellipse cx="139" cy="129" rx="12" ry="7"/><ellipse cx="356" cy="181" rx="30" ry="18"/><ellipse cx="51" cy="196" rx="17" ry="10"/></g>
+  <g id="optical-refraction" fill="none"><path d="M71 328C50 244 90 153 160 113C201 90 247 83 307 87" stroke="#73bbb2" stroke-width="1.4" opacity=".56"/><path d="M78 330C56 245 96 157 166 117C207 94 256 89 313 91" stroke="#b5a6cd" stroke-width="1" opacity=".43"/><path d="M341 347C427 272 425 189 377 140" stroke="#dcafbb" stroke-width="1" opacity=".36"/><path d="M347 351C433 276 431 193 383 144" stroke="#bdab7d" stroke-width="1" opacity=".37"/></g>
+  <g id="anamorphic-streak" stroke="#97bbc6" stroke-width="1" opacity=".26"><path d="M39 73H228M330 73H453"/><path d="M98 76H275M341 76H414" stroke-width=".6"/></g>
+  <path id="garden-ground" d="M0 323Q71 291 125 319T230 308T334 319T480 312V360H0Z" fill="#132a2c"/>
+  <g id="lichen-like-branching"><g transform="translate(56 291) scale(1)" stroke="#69b3a4" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g><g transform="translate(85 301) scale(0.8)" stroke="#bdb4ce" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g><g transform="translate(339 296) scale(1.1)" stroke="#a6b59d" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g><g transform="translate(391 311) scale(1.2)" stroke="#69b3a4" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g><g transform="translate(418 285) scale(0.7)" stroke="#bdb4ce" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g><g transform="translate(122 324) scale(0.75)" stroke="#a6b59d" stroke-width="1.6" fill="none"><path d="M0 0V-17L-7-23L-9-34M-7-23L-18-21L-24-28M0-12L10-20L12-31M10-20L22-19L26-26M0-7L-12-10L-19-6M0-17L2-32L-3-40M2-32L9-37"/></g></g>
+  <g id="moonlit-plants"><g id="night-left" transform="translate(184 326) scale(1.04)" stroke="#8b8f94" stroke-width="1.3" stroke-linejoin="round">
+      <path id="night-left-stem" fill="#e6e3db" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="night-left-scales" fill="#c7bbc3">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="night-left-flower" fill="#e6e3db">
+        <path id="night-left-sepal-left" fill="#c7bbc3" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="night-left-sepal-right" fill="#c7bbc3" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="night-left-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="night-left-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="night-left-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="night-left-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="night-left-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="night-left-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#8b8f94" stroke="#e6e3db" stroke-width="1.7"/>
+          <g id="night-left-included-reproductive-parts" fill="#c7bbc3" stroke="#c7bbc3" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#e6e3db" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g><g id="night-right" transform="translate(267 328) scale(0.76)" stroke="#7c9593" stroke-width="1.3" stroke-linejoin="round">
+      <path id="night-right-stem" fill="#d7ded6" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="night-right-scales" fill="#c2b2c5">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="night-right-flower" fill="#d7ded6">
+        <path id="night-right-sepal-left" fill="#c2b2c5" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="night-right-sepal-right" fill="#c2b2c5" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="night-right-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="night-right-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="night-right-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="night-right-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="night-right-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="night-right-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#7c9593" stroke="#d7ded6" stroke-width="1.7"/>
+          <g id="night-right-included-reproductive-parts" fill="#c2b2c5" stroke="#c2b2c5" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#d7ded6" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g><g id="night-center" transform="translate(232 329) scale(1.22)" stroke="#9a9696" stroke-width="1.3" stroke-linejoin="round">
+      <path id="night-center-stem" fill="#ece8dc" d="M-5 0 C-8-34-9-71-5-106 C-3-140 3-166 18-174 C35-183 52-170 51-153 L44-152 C43-166 34-174 23-168 C10-162 5-137 3-105 C0-70-1-34 3 0Z"/>
+      <g id="night-center-scales" fill="#cebbcb">
+        <path d="M-6-26 Q-17-41-10-49 Q-3-41 0-29Z"/>
+        <path d="M1-52 Q12-66 8-73 Q-2-67-3-57Z"/>
+        <path d="M-5-81 Q-15-93-9-100 Q-3-94 0-83Z"/>
+        <path d="M1-109 Q12-120 8-128 Q2-126-2-111Z"/>
+        <path d="M4-139 Q-2-152 3-158 Q9-150 10-145Z"/>
+      </g>
+      <g id="night-center-flower" fill="#ece8dc">
+        <path id="night-center-sepal-left" fill="#cebbcb" d="M42-158 Q34-159 32-151 L41-148Z"/>
+        <path id="night-center-sepal-right" fill="#cebbcb" d="M49-158 Q60-157 61-149 L53-146Z"/>
+        <path id="night-center-petal-back-left" d="M43-154 C37-150 35-142 33-134 C31-128 34-123 38-123 C43-123 47-128 48-135 C49-144 47-151 43-154Z"/>
+        <path id="night-center-petal-back-right" d="M51-154 C57-150 59-142 61-134 C63-128 60-123 56-123 C51-123 47-128 46-135 C45-144 47-151 51-154Z"/>
+        <path id="night-center-petal-left" d="M43-153 C38-148 37-139 34-131 C32-125 33-120 38-120 C44-120 49-125 50-132 C51-141 47-149 43-153Z"/>
+        <path id="night-center-petal-right" d="M51-153 C56-148 57-139 60-131 C62-125 61-120 56-120 C50-120 45-125 44-132 C43-141 47-149 51-153Z"/>
+        <path id="night-center-petal-front" d="M46-153 C42-146 40-138 40-129 C40-122 42-119 47-119 C52-119 54-122 54-129 C54-138 52-146 49-153Z"/>
+        <g id="night-center-flower-opening">
+          <ellipse cx="47" cy="-123.5" rx="13.5" ry="4.1" fill="#9a9696" stroke="#ece8dc" stroke-width="1.7"/>
+          <g id="night-center-included-reproductive-parts" fill="#cebbcb" stroke="#cebbcb" stroke-width=".8">
+            <path d="M40-126V-123M43-126V-122.7M51-126V-122.7M54-126V-123"/>
+            <circle cx="40" cy="-123" r=".8"/><circle cx="43" cy="-122.7" r=".8"/><circle cx="51" cy="-122.7" r=".8"/><circle cx="54" cy="-123" r=".8"/>
+            <path d="M47-127V-123.2" stroke-width="1.1"/><ellipse cx="47" cy="-123.2" rx="1.7" ry=".9"/>
+          </g>
+          <path d="M34-123.1Q47-117.5 60-123.1" fill="none" stroke="#ece8dc" stroke-width="1.8"/>
+        </g>
+      </g>
+    </g></g>
+  <g id="foreground-softness" fill="#5a8d7f" opacity=".16"><ellipse cx="30" cy="340" rx="56" ry="23"/><ellipse cx="437" cy="354" rx="72" ry="32"/></g>
+
+</svg>

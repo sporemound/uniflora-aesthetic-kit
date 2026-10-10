@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="isometric-signal-title isometric-signal-desc">
+  <title id="isometric-signal-title">Isometric botanical signal garden</title>
+  <desc id="isometric-signal-desc">A new isometric interpretation: three pale scaled ghost-pipe stems with individual nodding open flowers, separate blunt petals, and visible lower openings sit on a turquoise rhomboid grid. Stepped geometry and mirrored signal diamonds suggest transmission and inversion. The plants are deliberately quantized, not a diagnostic illustration.</desc>
+  <metadata>Uniflora aesthetic template v0.1. Original newly proposed vector interpretation; no historical asset, artist artwork, game asset, photograph, or traditional textile pattern reproduced. Asset terms: CC BY 4.0; creator-authorized repository publication; see LICENSE.md, ATTRIBUTION.md and docs/SVG-PROVENANCE.md.</metadata>
+  
+
+  <rect id="background" width="480" height="360" fill="#0b211d"/>
+  <g id="pixel-grain" fill="#54a18c" opacity=".42"><rect x="24" y="32" width="2" height="2"/><rect x="42" y="72" width="2" height="2"/><rect x="448" y="42" width="2" height="2"/><rect x="430" y="90" width="2" height="2"/><rect x="60" y="154" width="2" height="2"/><rect x="390" y="35" width="2" height="2"/><rect x="35" y="276" width="2" height="2"/><rect x="441" y="286" width="2" height="2"/><rect x="76" y="326" width="2" height="2"/><rect x="382" y="317" width="2" height="2"/><rect x="310" y="31" width="2" height="2"/><rect x="155" y="30" width="2" height="2"/></g>
+  <g id="mirrored-signal-geometry" fill="none" stroke="#5bd9cb" stroke-width="1.5"><path d="M216 129L240 90L264 129L240 168Z" opacity="0.515"/><path d="M192 140L240 78L288 140L240 202Z" opacity="0.450"/><path d="M168 151L240 66L312 151L240 236Z" opacity="0.385"/><path d="M144 162L240 54L336 162L240 270Z" opacity="0.320"/><path d="M120 173L240 42L360 173L240 304Z" opacity="0.255"/>
+    <path d="M78 98H131L169 76H202 M402 98H349L311 76H278"/>
+    <path d="M78 105H137L171 85H197 M402 105H343L309 85H283" opacity=".5"/>
+  </g>
+  <g id="isometric-ground">
+    <path d="M54 236L240 138L426 236L240 334Z" fill="#143d31" stroke="#40977c" stroke-width="2"/>
+    <path d="M54 236V248L240 346V334Z" fill="#082c27"/>
+    <path d="M426 236V248L240 346V334Z" fill="#115245"/>
+    <g fill="none" stroke="#31866c" stroke-width="1"><path d="M85.0 252.3L271.0 154.3"/><path d="M85.0 219.7L271.0 317.7"/><path d="M116.0 268.7L302.0 170.7"/><path d="M116.0 203.3L302.0 301.3"/><path d="M147.0 285.0L333.0 187.0"/><path d="M147.0 187.0L333.0 285.0"/><path d="M178.0 301.3L364.0 203.3"/><path d="M178.0 170.7L364.0 268.7"/><path d="M209.0 317.7L395.0 219.7"/><path d="M209.0 154.3L395.0 252.3"/></g>
+    <path d="M111 236L240 168L369 236L240 304Z" fill="none" stroke="#83d7bb" stroke-width="1.5"/>
+  </g>
+  <g id="plant-shadows" fill="#071713" opacity=".65"><path d="M151 241L221 272L244 262L172 229Z"/><path d="M225 230L286 261L315 246L246 218Z"/><path d="M290 256L329 276L347 266L310 246Z"/></g>
+  <g id="botanical-forms">
+    <g id="isometric-left" transform="translate(156 241) scale(0.89)" stroke-linejoin="miter">
+      <path fill="#e4edcf" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#54c7b6" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="isometric-left-five-petals" stroke="#559185" stroke-width="1" fill="#e4edcf">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="isometric-left-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#e4edcf"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#e4edcf"/></g>
+      </g>
+    </g>
+    <g id="isometric-center" transform="translate(231 234) scale(1.14)" stroke-linejoin="miter">
+      <path fill="#e4edcf" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#54c7b6" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="isometric-center-five-petals" stroke="#559185" stroke-width="1" fill="#e4edcf">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="isometric-center-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#e4edcf"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#e4edcf"/></g>
+      </g>
+    </g>
+    <g id="isometric-right" transform="translate(297 257) scale(0.7)" stroke-linejoin="miter">
+      <path fill="#e4edcf" d="M0 0H8V-27H5V-54H9V-89H13V-116H19V-127H30V-124H36V-114H42V-116H47V-132H40V-138H18V-133H10V-121H5V-100H1V-74H-3V-35H0Z"/>
+      <path fill="#54c7b6" d="M0-23H-6V-34H-10V-42H-4V-36H2Z M6-57H14V-67H18V-74H12V-68H6Z M2-85H-4V-92H-6V-100H0V-96H5Z M10-109H18V-115H20V-122H14V-116H9Z"/>
+      <g id="isometric-right-five-petals" stroke="#559185" stroke-width="1" fill="#e4edcf">
+        <path d="M36-115L32-111L30-101V-92H32V-89H36V-91H40V-104Z"/>
+        <path d="M43-115L47-111L49-101V-92H47V-89H43V-91H39V-104Z"/>
+        <path d="M35-112L32-106L29-96V-88H31V-85H37V-88H41V-102Z"/>
+        <path d="M43-112L47-106L50-96V-88H48V-85H42V-88H38V-102Z"/>
+        <path d="M39-113L35-105L34-95V-87H36V-84H43V-87H45V-95L43-105Z"/>
+        <g id="isometric-right-flower-opening" stroke="none"><path d="M32-93H48V-91H50V-87H48V-85H33V-87H30V-91H32Z" fill="#559185"/><path d="M34-90H36V-88H34Z M43-90H45V-88H43Z M38-89H41V-87H38Z" fill="#e4edcf"/><path d="M31-87H34V-85H47V-87H49V-84H32Z" fill="#e4edcf"/></g>
+      </g>
+    </g>
+  </g>
+  <g id="inverted-echo" fill="none" stroke="#3cad99" opacity=".5" stroke-width="1.5"><path d="M187 276L213 289L214 316L221 320L227 316V290L252 277"/><path d="M203 278L223 269L242 278L223 288Z"/></g>
+  <g id="rhythm-markers" fill="#8dd8c6"><path d="M50 188H62V190H50Z M418 188H430V190H418Z"/><rect x="43" y="184" width="3" height="3"/><rect x="434" y="184" width="3" height="3"/></g>
+
+</svg>
